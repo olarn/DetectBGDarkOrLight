@@ -31,3 +31,5 @@ Example Code...
 	} else
 	    _lblTop.textColor = [UIColor whiteColor];
 }
+
+Try to change background images to see the label's textcolor changed. And also changes the Threshold variables to judge the background should be dark or light.

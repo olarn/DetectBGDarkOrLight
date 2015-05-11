@@ -5,6 +5,7 @@ To use code. Just drag "ImageLightMeter.h" and "ImageLightMeter.m" into your Xco
 
 Example Code...
 
+```
 // .h file 
 @interface ViewController : UIViewController
 
@@ -12,7 +13,8 @@ Example Code...
 @property (strong, nonatomic) IBOutlet UILabel *lblTop;
 
 @end
-
+```
+```
 // .m file
 #import "ImageLightMeter.h"
 
@@ -31,5 +33,6 @@ Example Code...
 	} else
 	    _lblTop.textColor = [UIColor whiteColor];
 }
+```
 
 Try to change background images to see the label's textcolor changed. And also changes the Threshold variables to judge the background should be dark or light.

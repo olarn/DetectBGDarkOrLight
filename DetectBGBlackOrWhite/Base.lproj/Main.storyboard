@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipod-touch-iphone-wallpapers-356ios" translatesAutoresizingMaskIntoConstraints="NO" id="HYz-Ru-Z9f">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Eu-Rp-pWt">
+                                <rect key="frame" x="16" y="515" width="568" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="r7C-9W-oWw"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="html5_logo_by_seanarmy-d4le3wx" translatesAutoresizingMaskIntoConstraints="NO" id="TPY-DX-UTH">
+                                <rect key="frame" x="36" y="51" width="57" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TPY-DX-UTH" secondAttribute="height" multiplier="19:20" id="ol4-Nz-ag1"/>
+                                    <constraint firstAttribute="width" constant="57" id="x8s-lP-zxF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ws5-cL-N9O">
+                                <rect key="frame" x="16" y="430" width="73" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sub-title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBS-AG-vpn">
+                                <rect key="frame" x="16" y="486" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb6-yd-yGB">
+                                <rect key="frame" x="294" y="40" width="290" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="290" id="4o3-KR-jVQ">
+                                        <variation key="widthClass=compact" constant="259"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="82" id="LdC-r2-xto"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TPY-DX-UTH" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="31" id="72R-S2-IK3"/>
+                            <constraint firstItem="Hb6-yd-yGB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TPY-DX-UTH" secondAttribute="trailing" constant="32" id="FOa-YR-bUt"/>
+                            <constraint firstItem="6Eu-Rp-pWt" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Iu0-jc-c8p"/>
+                            <constraint firstItem="6Eu-Rp-pWt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="L9B-3J-snV"/>
+                            <constraint firstAttribute="trailing" secondItem="HYz-Ru-Z9f" secondAttribute="trailing" id="NHy-DX-h57"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="6Eu-Rp-pWt" secondAttribute="bottom" constant="20" id="PtP-03-lRg"/>
+                            <constraint firstItem="Hb6-yd-yGB" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="XY6-tm-d9J"/>
+                            <constraint firstItem="TPY-DX-UTH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="Xry-HT-6tR"/>
+                            <constraint firstItem="HYz-Ru-Z9f" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="fGc-Ot-Wo6"/>
+                            <constraint firstItem="mBS-AG-vpn" firstAttribute="top" secondItem="ws5-cL-N9O" secondAttribute="bottom" constant="8" id="hvr-ce-xBP"/>
+                            <constraint firstItem="6Eu-Rp-pWt" firstAttribute="leading" secondItem="mBS-AG-vpn" secondAttribute="leading" id="juc-ce-kr6"/>
+                            <constraint firstItem="HYz-Ru-Z9f" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="r6c-Bu-Wbd"/>
+                            <constraint firstItem="6Eu-Rp-pWt" firstAttribute="top" secondItem="mBS-AG-vpn" secondAttribute="bottom" constant="8" id="vGS-zO-HY4"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="HYz-Ru-Z9f" secondAttribute="bottom" id="vYF-qK-fd8"/>
+                            <constraint firstItem="ws5-cL-N9O" firstAttribute="leading" secondItem="mBS-AG-vpn" secondAttribute="leading" id="vfS-I7-eCK"/>
+                            <constraint firstItem="Hb6-yd-yGB" firstAttribute="centerY" secondItem="TPY-DX-UTH" secondAttribute="centerY" id="y2N-pR-1NB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgBackground" destination="HYz-Ru-Z9f" id="3Ln-jN-Y4V"/>
+                        <outlet property="lblSubTitle" destination="mBS-AG-vpn" id="8IR-dz-ywE"/>
+                        <outlet property="lblSynopsis" destination="6Eu-Rp-pWt" id="TXT-oF-Eeh"/>
+                        <outlet property="lblTitle" destination="ws5-cL-N9O" id="gqu-x1-Lf9"/>
+                        <outlet property="lblTop" destination="Hb6-yd-yGB" id="t8R-JK-0VO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="html5_logo_by_seanarmy-d4le3wx" width="512" height="512"/>
+        <image name="ipod-touch-iphone-wallpapers-356ios" width="640" height="960"/>
+    </resources>
+</document>
